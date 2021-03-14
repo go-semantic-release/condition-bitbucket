@@ -1,0 +1,22 @@
+version: 2
+
+updates:
+  - package-ecosystem: gomod
+    directory: /
+    schedule:
+      interval: weekly
+
+    assignees:
+      - durandj
+    reviewers:
+      - durandj
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+
+    assignees:
+      - durandj
+    reviewers:
+      - durandj
