@@ -7,9 +7,35 @@
 The Bitbucket Pipelines condition for
 [go-semantic-release](https://github.com/go-semantic-release/semantic-release).
 
+This plugin will make sure that the continuous integration environment
+conditions are met. Namely that the release is happening within
+Bitbucket Pipelines and is on the correct branch.
+
 ## Usage
 
-TODO
+To use this plugin you need to include the following block in your
+`.semrelrc` file.
+
+```json
+{
+    "plugins": {
+        "ci-condition": {
+            "name": "bitbucket@^1.0.0",
+            // Options can be omitted if you want to use the defaults.
+            // See the section on configuration below.
+            "options": {
+                // Put configuration options here
+            }
+        }
+    }
+}
+```
+
+### Configuration
+
+|      Name      | Default Value |                 Description                 |
+|:--------------:|:-------------:|:-------------------------------------------:|
+| defaultBranch  | master        | The branch where deployments should happen. |
 
 ## Licence
 
