@@ -55,8 +55,8 @@ github.com/go-gl/glfw v0.0.0-20190409004039-e6da0acd62b1/go.mod h1:vR7hzQXu2zJy9
 github.com/go-kit/kit v0.8.0/go.mod h1:xBxKIO96dXMWWy0MnWVtmwkA9/13aqxPnvrjFYMA2as=
 github.com/go-logfmt/logfmt v0.3.0/go.mod h1:Qt1PoO58o5twSAckw1HlFXLmHsOX5/0LbT9GBnD5lWE=
 github.com/go-logfmt/logfmt v0.4.0/go.mod h1:3RMwSq7FuexP4Kalkev3ejPJsZTpXXBr9+V4qmtdjCk=
-github.com/go-semantic-release/semantic-release/v2 v2.13.0 h1:X9O//EGYsVIAKknqVozHw7DCT01CdKY32mExutwoF0M=
-github.com/go-semantic-release/semantic-release/v2 v2.13.0/go.mod h1:Xe3fnqxEYpVAQYYJPBRpfq1jJ1twQzRLyw5eGcmUIf0=
+github.com/go-semantic-release/semantic-release/v2 v2.15.0 h1:HH10kSgB2gmEjn83K/k9zTGHG7MHub4xONLs1msSEXc=
+github.com/go-semantic-release/semantic-release/v2 v2.15.0/go.mod h1:OlkQ0sW+vUsI4kDqmR9BAGh4bbFuaCfAexl/i+/yLhY=
 github.com/go-stack/stack v1.8.0/go.mod h1:v0f6uXyyMGvRgIKkXu+yp6POWl0qKG85gN/melR3HDY=
 github.com/gogo/protobuf v1.1.1/go.mod h1:r8qH/GZQm5c6nD/R0oafs1akxWv10x8SbQlK7atdtwQ=
 github.com/gogo/protobuf v1.2.1/go.mod h1:hp+jE20tsWTFYpLwKvXlhS1hjn+gTNwPg2I6zVXpSg4=
