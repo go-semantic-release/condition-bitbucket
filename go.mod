@@ -4,5 +4,5 @@ go 1.16
 
 require (
 	github.com/go-semantic-release/semantic-release/v2 v2.20.0
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.7.1
 )
