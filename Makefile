@@ -11,14 +11,14 @@ BIN  = $(BIN_DIR)/$(NAME)
 
 ######################################################################
 
-GOLANGCILINT_VERSION = v1.38.0
+GOLANGCILINT_VERSION = v1.46.2
 GOLANGCILINT_NAME    = golangci-lint
 GOLANGCILINT_PATH    = $(REPO_ROOT)/bin
-GOLANGCILINT_URL     = https://install.goreleaser.com/github.com/golangci/golangci-lint.sh
+GOLANGCILINT_URL     = https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh
 GOLANGCILINT         = $(REPO_ROOT)/bin/$(GOLANGCILINT_NAME)
 
 $(GOLANGCILINT):
-	cd $(REPO_ROOT); curl -sfL $(GOLANGCILINT_URL) | sh -s $(GOLANGCILINT_VERSION)
+	cd $(REPO_ROOT); curl -sSfL $(GOLANGCILINT_URL) | sh -s -- -b $(BIN_DIR) $(GOLANGCILINT_VERSION)
 
 ######################################################################
 
