@@ -11,7 +11,7 @@ BIN  = $(BIN_DIR)/$(NAME)
 
 ######################################################################
 
-GOLANGCILINT_VERSION = v1.46.2
+GOLANGCILINT_VERSION = v1.50.1
 GOLANGCILINT_NAME    = golangci-lint
 GOLANGCILINT_PATH    = $(REPO_ROOT)/bin
 GOLANGCILINT_URL     = https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh
