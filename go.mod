@@ -3,7 +3,7 @@ module github.com/durandj/semantic-release-condition-bitbucket
 go 1.21
 
 require (
-	github.com/go-semantic-release/semantic-release/v2 v2.28.0
+	github.com/go-semantic-release/semantic-release/v2 v2.29.0
 	github.com/stretchr/testify v1.8.4
 )
 
